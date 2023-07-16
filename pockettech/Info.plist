@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCameraPortraitEffectEnabled</key>
+	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Need access to your photo library for ticket creation.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Need access to your camera for ticket creation.</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.113087941687-qinmdllr49j76na3iucekk90gai9g85b</string>
+			</array>
+		</dict>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIImageName</key>
+		<string>Launch</string>
+	</dict>
+	<key>GIDClientID</key>
+	<string>113087941687-qinmdllr49j76na3iucekk90gai9g85b.apps.googleusercontent.com</string>
+	<key>GIDServerClientID</key>
+	<string>113087941687-qinmdllr49j76na3iucekk90gai9g85b.apps.googleusercontent.com</string>
+	<key>BUNDLE_ID</key>
+	<string>com.paulithious.pockettech.pockettech</string>
+	<key>CLIENT_ID</key>
+	<string>113087941687-qinmdllr49j76na3iucekk90gai9g85b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.113087941687-qinmdllr49j76na3iucekk90gai9g85b</string>
+</dict>
+</plist>

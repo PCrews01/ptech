@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B05EFC32A221FCC00CF9014 /* funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B05EFC22A221FCC00CF9014 /* funcs.swift */; };
+		7B05EFC62A22207800CF9014 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B05EFC52A22207800CF9014 /* models.swift */; };
+		7B62C29F2A2555D1003044A8 /* KBArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B62C29E2A2555D1003044A8 /* KBArticleView.swift */; };
+		7B62C2A42A25726D003044A8 /* AgentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B62C2A32A25726D003044A8 /* AgentsView.swift */; };
+		7B83BC712A18FDFA00B37F44 /* pockettechApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B83BC702A18FDFA00B37F44 /* pockettechApp.swift */; };
+		7B83BC732A18FDFA00B37F44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B83BC722A18FDFA00B37F44 /* ContentView.swift */; };
+		7B83BC752A18FDFB00B37F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B83BC742A18FDFB00B37F44 /* Assets.xcassets */; };
+		7B83BC792A18FDFB00B37F44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B83BC782A18FDFB00B37F44 /* Preview Assets.xcassets */; };
+		7B83BC832A18FDFB00B37F44 /* pockettechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B83BC822A18FDFB00B37F44 /* pockettechTests.swift */; };
+		7B83BC8D2A18FDFB00B37F44 /* pockettechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B83BC8C2A18FDFB00B37F44 /* pockettechUITests.swift */; };
+		7B83BC8F2A18FDFB00B37F44 /* pockettechUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B83BC8E2A18FDFB00B37F44 /* pockettechUITestsLaunchTests.swift */; };
+		7BD3E5FB2A3227B300333666 /* client_113087941687-qinmdllr49j76na3iucekk90gai9g85b.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BD3E5FA2A3227B300333666 /* client_113087941687-qinmdllr49j76na3iucekk90gai9g85b.apps.googleusercontent.com.plist */; };
+		7BD3E5FE2A322A1E00333666 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD3E5FD2A322A1E00333666 /* GoogleSignIn */; };
+		7BD3E6002A322A1E00333666 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD3E5FF2A322A1E00333666 /* GoogleSignInSwift */; };
+		7BD3E6022A329AAE00333666 /* ItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD3E6012A329AAE00333666 /* ItemDetailsView.swift */; };
+		7BD3E6042A32CF2900333666 /* AgentDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD3E6032A32CF2900333666 /* AgentDetailsView.swift */; };
+		7BD3E6072A337D3300333666 /* GoogleAPIClientForRESTCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD3E6062A337D3300333666 /* GoogleAPIClientForRESTCore */; };
+		7BD3E6092A337D3300333666 /* GoogleAPIClientForREST_Sheets in Frameworks */ = {isa = PBXBuildFile; productRef = 7BD3E6082A337D3300333666 /* GoogleAPIClientForREST_Sheets */; };
+		7BD3E60C2A337E9200333666 /* GSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD3E60B2A337E9200333666 /* GSheets.swift */; };
+		7BE9F3E42A19069200FDAD2E /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9F3E32A19069200FDAD2E /* TicketsView.swift */; };
+		7BE9F3E62A193E1400FDAD2E /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9F3E52A193E1400FDAD2E /* TicketView.swift */; };
+		7BE9F3E82A193F9B00FDAD2E /* TicketDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9F3E72A193F9B00FDAD2E /* TicketDetails.swift */; };
+		7BE9F3EB2A1AAE2600FDAD2E /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9F3EA2A1AAE2600FDAD2E /* MessageBubble.swift */; };
+		7BF111892A2050330081AE1B /* KBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF111882A2050330081AE1B /* KBView.swift */; };
+		7BF489B22A30BE93004972C1 /* ChromebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF489B12A30BE93004972C1 /* ChromebookView.swift */; };
+		7BF489B52A30CAE0004972C1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7BF489B42A30CAE0004972C1 /* Alamofire */; };
+		7BFE7BBE2A33B7BB00CF21B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE7BBD2A33B7BB00CF21B9 /* AppDelegate.swift */; };
+		7BFE7BC32A348CEA00CF21B9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE7BC22A348CEA00CF21B9 /* LoginView.swift */; };
+		7BFE7BC52A34C29E00CF21B9 /* SignOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE7BC42A34C29E00CF21B9 /* SignOutView.swift */; };
+		7BFE7BC82A34D26200CF21B9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE7BC72A34D26200CF21B9 /* HomeView.swift */; };
+		7BFE7BCB2A35370F00CF21B9 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE7BCA2A35370F00CF21B9 /* AlertView.swift */; };
+		7BFE7BCD2A367FC300CF21B9 /* NewTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE7BCC2A367FC300CF21B9 /* NewTicketView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B83BC7F2A18FDFB00B37F44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B83BC652A18FDFA00B37F44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B83BC6C2A18FDFA00B37F44;
+			remoteInfo = pockettech;
+		};
+		7B83BC892A18FDFB00B37F44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B83BC652A18FDFA00B37F44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B83BC6C2A18FDFA00B37F44;
+			remoteInfo = pockettech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B05EFC22A221FCC00CF9014 /* funcs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funcs.swift; sourceTree = "<group>"; };
+		7B05EFC52A22207800CF9014 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		7B333E5B2A22E0BC009EC898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7B62C29E2A2555D1003044A8 /* KBArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBArticleView.swift; sourceTree = "<group>"; };
+		7B62C2A32A25726D003044A8 /* AgentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentsView.swift; sourceTree = "<group>"; };
+		7B83BC6D2A18FDFA00B37F44 /* pockettech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pockettech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B83BC702A18FDFA00B37F44 /* pockettechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pockettechApp.swift; sourceTree = "<group>"; };
+		7B83BC722A18FDFA00B37F44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B83BC742A18FDFB00B37F44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B83BC762A18FDFB00B37F44 /* pockettech.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pockettech.entitlements; sourceTree = "<group>"; };
+		7B83BC782A18FDFB00B37F44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B83BC7E2A18FDFB00B37F44 /* pockettechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pockettechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B83BC822A18FDFB00B37F44 /* pockettechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pockettechTests.swift; sourceTree = "<group>"; };
+		7B83BC882A18FDFB00B37F44 /* pockettechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pockettechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B83BC8C2A18FDFB00B37F44 /* pockettechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pockettechUITests.swift; sourceTree = "<group>"; };
+		7B83BC8E2A18FDFB00B37F44 /* pockettechUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pockettechUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BD3E5FA2A3227B300333666 /* client_113087941687-qinmdllr49j76na3iucekk90gai9g85b.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_113087941687-qinmdllr49j76na3iucekk90gai9g85b.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		7BD3E6012A329AAE00333666 /* ItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsView.swift; sourceTree = "<group>"; };
+		7BD3E6032A32CF2900333666 /* AgentDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentDetailsView.swift; sourceTree = "<group>"; };
+		7BD3E60B2A337E9200333666 /* GSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSheets.swift; sourceTree = "<group>"; };
+		7BE9F3E32A19069200FDAD2E /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
+		7BE9F3E52A193E1400FDAD2E /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		7BE9F3E72A193F9B00FDAD2E /* TicketDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetails.swift; sourceTree = "<group>"; };
+		7BE9F3EA2A1AAE2600FDAD2E /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		7BF111882A2050330081AE1B /* KBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBView.swift; sourceTree = "<group>"; };
+		7BF489B12A30BE93004972C1 /* ChromebookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromebookView.swift; sourceTree = "<group>"; };
+		7BFE7BBD2A33B7BB00CF21B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BFE7BC22A348CEA00CF21B9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7BFE7BC42A34C29E00CF21B9 /* SignOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutView.swift; sourceTree = "<group>"; };
+		7BFE7BC72A34D26200CF21B9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7BFE7BCA2A35370F00CF21B9 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		7BFE7BCC2A367FC300CF21B9 /* NewTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTicketView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B83BC6A2A18FDFA00B37F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD3E6002A322A1E00333666 /* GoogleSignInSwift in Frameworks */,
+				7BF489B52A30CAE0004972C1 /* Alamofire in Frameworks */,
+				7BD3E6072A337D3300333666 /* GoogleAPIClientForRESTCore in Frameworks */,
+				7BD3E5FE2A322A1E00333666 /* GoogleSignIn in Frameworks */,
+				7BD3E6092A337D3300333666 /* GoogleAPIClientForREST_Sheets in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B83BC7B2A18FDFB00B37F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B83BC852A18FDFB00B37F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B05EFC12A221FAE00CF9014 /* func */ = {
+			isa = PBXGroup;
+			children = (
+				7B05EFC22A221FCC00CF9014 /* funcs.swift */,
+			);
+			path = func;
+			sourceTree = "<group>";
+		};
+		7B05EFC42A22206700CF9014 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				7B05EFC52A22207800CF9014 /* models.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		7B62C2A02A25721A003044A8 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				7BE9F3E72A193F9B00FDAD2E /* TicketDetails.swift */,
+				7BE9F3E52A193E1400FDAD2E /* TicketView.swift */,
+				7BE9F3E32A19069200FDAD2E /* TicketsView.swift */,
+				7BFE7BCC2A367FC300CF21B9 /* NewTicketView.swift */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		7B62C2A12A257238003044A8 /* Knowledgebase */ = {
+			isa = PBXGroup;
+			children = (
+				7B62C29E2A2555D1003044A8 /* KBArticleView.swift */,
+				7BF111882A2050330081AE1B /* KBView.swift */,
+			);
+			path = Knowledgebase;
+			sourceTree = "<group>";
+		};
+		7B62C2A22A25725E003044A8 /* Agents */ = {
+			isa = PBXGroup;
+			children = (
+				7B62C2A32A25726D003044A8 /* AgentsView.swift */,
+				7BD3E6032A32CF2900333666 /* AgentDetailsView.swift */,
+			);
+			path = Agents;
+			sourceTree = "<group>";
+		};
+		7B83BC642A18FDFA00B37F44 = {
+			isa = PBXGroup;
+			children = (
+				7B83BC6F2A18FDFA00B37F44 /* pockettech */,
+				7B83BC812A18FDFB00B37F44 /* pockettechTests */,
+				7B83BC8B2A18FDFB00B37F44 /* pockettechUITests */,
+				7B83BC6E2A18FDFA00B37F44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B83BC6E2A18FDFA00B37F44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B83BC6D2A18FDFA00B37F44 /* pockettech.app */,
+				7B83BC7E2A18FDFB00B37F44 /* pockettechTests.xctest */,
+				7B83BC882A18FDFB00B37F44 /* pockettechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B83BC6F2A18FDFA00B37F44 /* pockettech */ = {
+			isa = PBXGroup;
+			children = (
+				7BD3E5FA2A3227B300333666 /* client_113087941687-qinmdllr49j76na3iucekk90gai9g85b.apps.googleusercontent.com.plist */,
+				7B333E5B2A22E0BC009EC898 /* Info.plist */,
+				7B05EFC42A22206700CF9014 /* models */,
+				7B05EFC12A221FAE00CF9014 /* func */,
+				7BE9F3E92A1AAE0C00FDAD2E /* components */,
+				7BE9F3E22A19067800FDAD2E /* views */,
+				7B83BC702A18FDFA00B37F44 /* pockettechApp.swift */,
+				7B83BC722A18FDFA00B37F44 /* ContentView.swift */,
+				7B83BC742A18FDFB00B37F44 /* Assets.xcassets */,
+				7B83BC762A18FDFB00B37F44 /* pockettech.entitlements */,
+				7B83BC772A18FDFB00B37F44 /* Preview Content */,
+				7BFE7BBD2A33B7BB00CF21B9 /* AppDelegate.swift */,
+			);
+			path = pockettech;
+			sourceTree = "<group>";
+		};
+		7B83BC772A18FDFB00B37F44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B83BC782A18FDFB00B37F44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B83BC812A18FDFB00B37F44 /* pockettechTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B83BC822A18FDFB00B37F44 /* pockettechTests.swift */,
+			);
+			path = pockettechTests;
+			sourceTree = "<group>";
+		};
+		7B83BC8B2A18FDFB00B37F44 /* pockettechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B83BC8C2A18FDFB00B37F44 /* pockettechUITests.swift */,
+				7B83BC8E2A18FDFB00B37F44 /* pockettechUITestsLaunchTests.swift */,
+			);
+			path = pockettechUITests;
+			sourceTree = "<group>";
+		};
+		7BD3E60A2A337E8000333666 /* scrap */ = {
+			isa = PBXGroup;
+			children = (
+				7BD3E60B2A337E9200333666 /* GSheets.swift */,
+			);
+			path = scrap;
+			sourceTree = "<group>";
+		};
+		7BE9F3E22A19067800FDAD2E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				7BFE7BC92A35370100CF21B9 /* Alerts */,
+				7BFE7BC62A34D25600CF21B9 /* Home */,
+				7BFE7BC12A348CDD00CF21B9 /* Auth */,
+				7BD3E60A2A337E8000333666 /* scrap */,
+				7BF489B02A30BE6A004972C1 /* Inventory */,
+				7B62C2A22A25725E003044A8 /* Agents */,
+				7B62C2A12A257238003044A8 /* Knowledgebase */,
+				7B62C2A02A25721A003044A8 /* Tickets */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		7BE9F3E92A1AAE0C00FDAD2E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				7BE9F3EA2A1AAE2600FDAD2E /* MessageBubble.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		7BF489B02A30BE6A004972C1 /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				7BF489B12A30BE93004972C1 /* ChromebookView.swift */,
+				7BD3E6012A329AAE00333666 /* ItemDetailsView.swift */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
+		7BFE7BC12A348CDD00CF21B9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7BFE7BC22A348CEA00CF21B9 /* LoginView.swift */,
+				7BFE7BC42A34C29E00CF21B9 /* SignOutView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		7BFE7BC62A34D25600CF21B9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7BFE7BC72A34D26200CF21B9 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7BFE7BC92A35370100CF21B9 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				7BFE7BCA2A35370F00CF21B9 /* AlertView.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B83BC6C2A18FDFA00B37F44 /* pockettech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B83BC922A18FDFB00B37F44 /* Build configuration list for PBXNativeTarget "pockettech" */;
+			buildPhases = (
+				7B83BC692A18FDFA00B37F44 /* Sources */,
+				7B83BC6A2A18FDFA00B37F44 /* Frameworks */,
+				7B83BC6B2A18FDFA00B37F44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pockettech;
+			packageProductDependencies = (
+				7BF489B42A30CAE0004972C1 /* Alamofire */,
+				7BD3E5FD2A322A1E00333666 /* GoogleSignIn */,
+				7BD3E5FF2A322A1E00333666 /* GoogleSignInSwift */,
+				7BD3E6062A337D3300333666 /* GoogleAPIClientForRESTCore */,
+				7BD3E6082A337D3300333666 /* GoogleAPIClientForREST_Sheets */,
+			);
+			productName = pockettech;
+			productReference = 7B83BC6D2A18FDFA00B37F44 /* pockettech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B83BC7D2A18FDFB00B37F44 /* pockettechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B83BC952A18FDFB00B37F44 /* Build configuration list for PBXNativeTarget "pockettechTests" */;
+			buildPhases = (
+				7B83BC7A2A18FDFB00B37F44 /* Sources */,
+				7B83BC7B2A18FDFB00B37F44 /* Frameworks */,
+				7B83BC7C2A18FDFB00B37F44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B83BC802A18FDFB00B37F44 /* PBXTargetDependency */,
+			);
+			name = pockettechTests;
+			productName = pockettechTests;
+			productReference = 7B83BC7E2A18FDFB00B37F44 /* pockettechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B83BC872A18FDFB00B37F44 /* pockettechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B83BC982A18FDFB00B37F44 /* Build configuration list for PBXNativeTarget "pockettechUITests" */;
+			buildPhases = (
+				7B83BC842A18FDFB00B37F44 /* Sources */,
+				7B83BC852A18FDFB00B37F44 /* Frameworks */,
+				7B83BC862A18FDFB00B37F44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B83BC8A2A18FDFB00B37F44 /* PBXTargetDependency */,
+			);
+			name = pockettechUITests;
+			productName = pockettechUITests;
+			productReference = 7B83BC882A18FDFB00B37F44 /* pockettechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B83BC652A18FDFA00B37F44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7B83BC6C2A18FDFA00B37F44 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					7B83BC7D2A18FDFB00B37F44 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 7B83BC6C2A18FDFA00B37F44;
+					};
+					7B83BC872A18FDFB00B37F44 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 7B83BC6C2A18FDFA00B37F44;
+					};
+				};
+			};
+			buildConfigurationList = 7B83BC682A18FDFA00B37F44 /* Build configuration list for PBXProject "pockettech" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B83BC642A18FDFA00B37F44;
+			packageReferences = (
+				7BF489B32A30CAE0004972C1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7BD3E5FC2A322A1E00333666 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				7BD3E6052A337D3300333666 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
+			);
+			productRefGroup = 7B83BC6E2A18FDFA00B37F44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B83BC6C2A18FDFA00B37F44 /* pockettech */,
+				7B83BC7D2A18FDFB00B37F44 /* pockettechTests */,
+				7B83BC872A18FDFB00B37F44 /* pockettechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B83BC6B2A18FDFA00B37F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD3E5FB2A3227B300333666 /* client_113087941687-qinmdllr49j76na3iucekk90gai9g85b.apps.googleusercontent.com.plist in Resources */,
+				7B83BC792A18FDFB00B37F44 /* Preview Assets.xcassets in Resources */,
+				7B83BC752A18FDFB00B37F44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B83BC7C2A18FDFB00B37F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B83BC862A18FDFB00B37F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B83BC692A18FDFA00B37F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE9F3E82A193F9B00FDAD2E /* TicketDetails.swift in Sources */,
+				7B05EFC62A22207800CF9014 /* models.swift in Sources */,
+				7BF489B22A30BE93004972C1 /* ChromebookView.swift in Sources */,
+				7B62C2A42A25726D003044A8 /* AgentsView.swift in Sources */,
+				7BE9F3EB2A1AAE2600FDAD2E /* MessageBubble.swift in Sources */,
+				7BFE7BCB2A35370F00CF21B9 /* AlertView.swift in Sources */,
+				7BF111892A2050330081AE1B /* KBView.swift in Sources */,
+				7BD3E60C2A337E9200333666 /* GSheets.swift in Sources */,
+				7BD3E6022A329AAE00333666 /* ItemDetailsView.swift in Sources */,
+				7BFE7BC52A34C29E00CF21B9 /* SignOutView.swift in Sources */,
+				7BFE7BBE2A33B7BB00CF21B9 /* AppDelegate.swift in Sources */,
+				7BD3E6042A32CF2900333666 /* AgentDetailsView.swift in Sources */,
+				7B62C29F2A2555D1003044A8 /* KBArticleView.swift in Sources */,
+				7BFE7BC32A348CEA00CF21B9 /* LoginView.swift in Sources */,
+				7BE9F3E42A19069200FDAD2E /* TicketsView.swift in Sources */,
+				7B83BC732A18FDFA00B37F44 /* ContentView.swift in Sources */,
+				7BFE7BCD2A367FC300CF21B9 /* NewTicketView.swift in Sources */,
+				7B05EFC32A221FCC00CF9014 /* funcs.swift in Sources */,
+				7BE9F3E62A193E1400FDAD2E /* TicketView.swift in Sources */,
+				7B83BC712A18FDFA00B37F44 /* pockettechApp.swift in Sources */,
+				7BFE7BC82A34D26200CF21B9 /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B83BC7A2A18FDFB00B37F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B83BC832A18FDFB00B37F44 /* pockettechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B83BC842A18FDFB00B37F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B83BC8F2A18FDFB00B37F44 /* pockettechUITestsLaunchTests.swift in Sources */,
+				7B83BC8D2A18FDFB00B37F44 /* pockettechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B83BC802A18FDFB00B37F44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B83BC6C2A18FDFA00B37F44 /* pockettech */;
+			targetProxy = 7B83BC7F2A18FDFB00B37F44 /* PBXContainerItemProxy */;
+		};
+		7B83BC8A2A18FDFB00B37F44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B83BC6C2A18FDFA00B37F44 /* pockettech */;
+			targetProxy = 7B83BC892A18FDFB00B37F44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7B83BC902A18FDFB00B37F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B83BC912A18FDFB00B37F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7B83BC932A18FDFB00B37F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pockettech/pockettech.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pockettech/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SU7R24N2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pockettech/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "/Users/paulcrews/Creative Cloud Files/pocket_tech_splash copy.jpg";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinthious.pockettech.pockettech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B83BC942A18FDFB00B37F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pockettech/pockettech.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pockettech/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SU7R24N2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pockettech/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "/Users/paulcrews/Creative Cloud Files/pocket_tech_splash copy.jpg";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinthious.pockettech.pockettech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B83BC962A18FDFB00B37F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SU7R24N2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinthious.pockettech.pockettechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pockettech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pockettech";
+			};
+			name = Debug;
+		};
+		7B83BC972A18FDFB00B37F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SU7R24N2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinthious.pockettech.pockettechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pockettech.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pockettech";
+			};
+			name = Release;
+		};
+		7B83BC992A18FDFB00B37F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SU7R24N2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinthious.pockettech.pockettechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pockettech;
+			};
+			name = Debug;
+		};
+		7B83BC9A2A18FDFB00B37F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SU7R24N2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulinthious.pockettech.pockettechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pockettech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B83BC682A18FDFA00B37F44 /* Build configuration list for PBXProject "pockettech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B83BC902A18FDFB00B37F44 /* Debug */,
+				7B83BC912A18FDFB00B37F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B83BC922A18FDFB00B37F44 /* Build configuration list for PBXNativeTarget "pockettech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B83BC932A18FDFB00B37F44 /* Debug */,
+				7B83BC942A18FDFB00B37F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B83BC952A18FDFB00B37F44 /* Build configuration list for PBXNativeTarget "pockettechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B83BC962A18FDFB00B37F44 /* Debug */,
+				7B83BC972A18FDFB00B37F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B83BC982A18FDFB00B37F44 /* Build configuration list for PBXNativeTarget "pockettechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B83BC992A18FDFB00B37F44 /* Debug */,
+				7B83BC9A2A18FDFB00B37F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7BD3E5FC2A322A1E00333666 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		7BD3E6052A337D3300333666 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/google-api-objectivec-client-for-rest";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		7BF489B32A30CAE0004972C1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7BD3E5FD2A322A1E00333666 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD3E5FC2A322A1E00333666 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		7BD3E5FF2A322A1E00333666 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD3E5FC2A322A1E00333666 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		7BD3E6062A337D3300333666 /* GoogleAPIClientForRESTCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD3E6052A337D3300333666 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForRESTCore;
+		};
+		7BD3E6082A337D3300333666 /* GoogleAPIClientForREST_Sheets */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BD3E6052A337D3300333666 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Sheets;
+		};
+		7BF489B42A30CAE0004972C1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BF489B32A30CAE0004972C1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7B83BC652A18FDFA00B37F44 /* Project object */;
+}
